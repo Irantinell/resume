@@ -1,0 +1,130 @@
+body {
+    background-color: lavender;
+    font: normal 16px "Mouse Memoirs", sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300&display=swap');
+
+/* @media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+} */
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/* .info-text {
+    margin-bottom: 20px;
+    display: flex;
+} */
+
+.list {
+    padding: 0 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+}
+
+.card {
+    border-radius: 11px;
+    padding: 15px 20px;
+}
+
+.bg-salmon {
+    background-color: salmon;
+}
+
+.bg-crimson {
+    background-color: crimson;
+}
+
+.bg-rebeccapurple {
+    background-color: rebeccapurple;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: gold;
+    font-size: 1rem;
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+    background: black;
+    color: gold;
+    transition: 0.2s;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    color: palevioletred;
+    font-size: 15px;
+}
+
+.btn:active {
+    color: papayawhip;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+    width: 50%;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    /* display: inline-block; */
+    /* width: calc (50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    /* font-size: 14px; */
+    color: gray;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
